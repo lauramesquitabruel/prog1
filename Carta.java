@@ -1,8 +1,8 @@
 public class Carta{
     String naipe;
-    char valor;
+    String valor;
 
-    public Carta(String naipe, char valor){
+    public Carta(String naipe, String valor){
         this.naipe = naipe;
         this.valor = valor;
     }
