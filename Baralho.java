@@ -61,7 +61,7 @@ public class Baralho{
     }
 
     public void embaralhar(){
-        Collections.shuffle(pilhaCartas, null);
+        Collections.shuffle(pilhaCartas);
     }
 
 

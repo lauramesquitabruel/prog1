@@ -4,6 +4,7 @@ public class Main{
     public static void main(String[] args) throws Exception{
         int x = 0;
         Baralho baralho = new Baralho();
+        baralho.embaralhar();
     
 
         ArrayList<Carta>maoJogador = new ArrayList<Carta>();
@@ -11,7 +12,7 @@ public class Main{
         for(x = 0; x<7; x++){
             Carta carta_nova = baralho.pescar();
             maoJogador.add(carta_nova);
-            System.out.println(carta_nova);
+            System.out.println(carta_nova.valor + " de " + carta_nova.naipe);
         }
 
     }
